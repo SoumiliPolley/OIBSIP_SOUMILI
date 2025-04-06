@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(18, 3, 32);
+    color:antiquewhite;
+}
+.navbar{
+    height: 40px;
+    font-size: 20px;;
+    background-color:rgba(65, 39, 98, 0.864);
+    color:rgb(195, 195, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    height: 80px;
+    width: 600px;
+    background-color: rgba(141, 7, 141, 0.967);
+    margin-top: 100px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius:35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.n-p{
+    height: 300px;
+}
+.first{
+    display: flex;
+    height: 500px;
+    color:antiquewhite;
+}
+#con{
+    width: 100px;
+    display: flex;
+}
+#ph{
+    margin: 7px;
+}
+#ph:active{
+    border: rgb(170, 147, 147) 2px solid;
+}
+#ld{
+    margin: 7px;
+}
+#ld:active{
+    border: rgb(170, 147, 147) 2px solid;
+    border-radius: 20%;
+}
+#inst{
+    margin: 7px;
+    border-radius: 20%;
+}
+#inst:active{
+    border: rgb(170, 147, 147) 2px solid;
+    border-radius: 20%;
+}
+#wapp{
+    margin: 7px;
+    border-radius: 20%;
+}
+#wapp:active{
+    border: rgb(170, 147, 147) 2px solid;
+    border-radius: 20%;
+}
+.descrip{
+    width: 900px;
+    border-radius: 0%;
+    margin-left: 100px;
+}
+#photo{
+    background-image: url("images/myPhoto.jpg"); 
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 45%;
+    margin-right: 50px;
+    margin-top: 20px;
+    border:5px solid rgb(139, 95, 180) ;
+}
+#photo:hover{
+    border:5px solid rgb(34, 12, 54);
+}
+.second{
+    height: 500px;
+    width: 1025px;
+    background-color: rgba(141, 7, 141, 0.967);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius:35px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+}
+.sf{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.ss{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+ul{
+    margin-left: 20px;
+}
+.logo{
+    display: flex;
+}
+#clogo{
+    background-image: url("images/cLogo.png");
+    height: 54px;
+    width: 50px;
+    background-size:cover;
+    margin: 3px;
+    border-radius: 3px;
+}
+#javalogo{
+    background-image: url("images/javaLogo.png");
+    height: 62px;
+    width: 50px;
+    background-size:cover;
+    margin: 3px;
+    border-radius: 3px;
+}
+#htmllogo{
+    background-image: url("images/htmlLogo.png");
+    height: 66px;
+    width: 50px;
+    background-size:cover;
+    margin: 3px;
+    border-radius: 3px;
+}
+#csslogo{
+    background-image: url("images/cssLogo.png");
+    height: 66px;
+    width: 50px;
+    background-size:cover;
+    margin: 3px;
+    border-radius: 3px;
+}
+#jslogo{
+    background-image: url("images/jsLogo.png");
+    height: 66px;
+    width: 52px;
+    background-size:cover;
+    margin: 3px;
+    border-radius: 3px;
+}
