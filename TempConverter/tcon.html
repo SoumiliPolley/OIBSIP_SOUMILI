@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link href="tcon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <h2 id="head"><u>TEMPERATURE CONVERTER</u></h2>
+        <div class="first">
+            <div class="celInput">
+                <h3>Input Value: </h3>
+                <input  type= "number" placeholder="Enter the temperature">
+                <div>
+                    <br>
+                    <label>Choose the unit</label>
+                    <select>
+                        <option>Celsius</option>
+                        <option>Fahrenheit</option>
+                        <option>Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div><h2>RESULT:</h2></div>
+            <div class="result1"></div>
+            <br>
+            <div class="result2"></div>
+        </div>
+        <div class="second">
+            <button class="reset">Reset</button>
+            <button class="convert">Convert</button>
+        </div>
+    </div>
+    <script src = "tcon.js"></script>
+</body>
+</html>
